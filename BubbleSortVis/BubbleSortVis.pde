@@ -25,11 +25,6 @@ void draw() {
   stroke(255);
 
 
- 
-
-
-
-
   for (int i = 0; i < values.length; i++) { 
     line(i, height, i, height - values[i]);
   }
